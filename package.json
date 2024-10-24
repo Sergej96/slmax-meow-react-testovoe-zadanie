@@ -1,0 +1,31 @@
+{
+  "name": "slmax-meow-react-testovoe-zadanie",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "start:dev": "concurrently \"npm:start\" \"npm:start:dev:server\"",
+    "start:dev:server": "npx json-server json-server/db.json -p 8000",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "15.0.1",
+    "react": "19.0.0-rc-69d4b800-20241021",
+    "react-dom": "19.0.0-rc-69d4b800-20241021"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "concurrently": "^9.0.1",
+    "eslint": "^8",
+    "eslint-config-next": "15.0.1",
+    "json-server": "^0.17.0",
+    "postcss": "^8",
+    "prettier": "^3.3.3",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5"
+  }
+}

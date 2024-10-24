@@ -1,0 +1,1 @@
+export const MIN_DATE_FILTER = '2024-10-01'

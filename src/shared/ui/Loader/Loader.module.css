@@ -1,0 +1,19 @@
+.full {
+    @apply fixed top-0 left-0 h-dvh w-dvw 
+}
+
+.partial {
+    @apply relative h-full w-full;
+}
+
+.sm {
+    @apply size-6
+}
+
+.md {
+    @apply size-12
+}
+
+.lg {
+    @apply size-16
+}
