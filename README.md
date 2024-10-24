@@ -1,4 +1,4 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+Тестовое задание для компании "SLMax". Для запуска проекта необходимо установить создать файл .env в корне проекта и указать в нем переменные окружения (env.example).
 
 ## Getting Started
 

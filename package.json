@@ -4,8 +4,6 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "start:dev": "concurrently \"npm:start\" \"npm:start:dev:server\"",
-    "start:dev:server": "npx json-server json-server/db.json -p 8000",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
